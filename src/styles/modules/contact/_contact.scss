@@ -1,0 +1,19 @@
+.contact{
+    background-image: url(../../../assets/images/me1.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color: rgba(0, 0, 0, 0.393);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-contact{
+    
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}

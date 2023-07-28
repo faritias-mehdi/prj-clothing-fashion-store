@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: red;
+}
+.navlikat a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.navlikat{
+    flex: 1;
+    justify-content: center;
+}
+
+
+.nav1 .navlikat{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .active{
+        color: red;
+    }
+    
+}
+.logo1{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+}
+
+.fashe{
+    font-weight: bold;
+}
+
+
+.nav1{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 20%;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+// ***************************************
+
+@media (min-width : 375px) and (max-width : 425px) {
+
+
+    
+
+}
+
+// ***************************************
+
+
+@media (min-width : 426px) and (max-width : 768px) {
+
+
+}
